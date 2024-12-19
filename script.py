@@ -142,11 +142,11 @@ def scheduled_job():
         "https://www.schneier.com/blog/atom.xml",
         "https://www.bleepingcomputer.com/feed/",
         #Customer Experience RSS Feeds
-"https://www.cxnetwork.com/rss"
-"https://customerthink.com/feed/"
-"https://feeds.feedburner.com/ForresterBlogs"
-"https://experiencematters.wordpress.com/feed/"
-"https://www.zendesk.com/blog/rss/"
+        "https://www.cxnetwork.com/rss",
+        "https://customerthink.com/feed/",
+        "https://feeds.feedburner.com/ForresterBlogs",
+        "https://experiencematters.wordpress.com/feed/",
+        "https://www.zendesk.com/blog/rss/"
     ]
     articles = fetch_rss_feeds(rss_feed_urls)
     if articles:
